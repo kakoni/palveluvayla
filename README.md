@@ -11,7 +11,9 @@ servers are registered in the X-Road central agency where certificates are issue
 certiﬁcate validity information. Receives 
 periodically query log hashes, thus creating a verifiable audit trail of queries. Log hashes are timestamped. monitoring service that monitors all the servers in the system.
 
-- Security Server, Turvapalvelin. Access rights control is 
+- Security Server, Turvapalvelin.  Security server acts as
+a gateway between the organisation connected to the X-Road and the X-Road
+infrastructure. Access rights control is 
 performed at the database's security server. To perform queries from organizations 
 information system to other X-Road databases. Security servers use certificate-based authentication for inter-server communication. The security server stores all received messages (queries or responses) to a query log
 
