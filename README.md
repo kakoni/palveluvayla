@@ -23,5 +23,12 @@ module built in the database.
 - Palveluväylään liittyneet palvelut keskustelevat keskenään käyttäen SOAP-protokollan mukaisia viestejä. http://x-road.ee/docs/eng/x-road_service_protocol.pdf
 
 ## Ylläpidosta
+- The main duty of the security server’s administrator is to install, configure, and maintain the 
+server. In addition, the administrator is authorized to take action during an emergency; for 
+example, if the system is under attack and the integrity or confidentiality of data is at risk, the 
+administrator is authorized to disconnect their security servers from the public network. 
+- The security server's administrator must have a trained replacement who can perform all 
+management duties. For important national databases or registries, it is essential to have two 
+system administrators.
 http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 
