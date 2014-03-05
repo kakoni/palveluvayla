@@ -8,14 +8,14 @@ Palveluväylään liittyvää materiaalia
 - Central agency/CA. To simplify key change, the public keys of all security 
 servers are registered in the X-Road central agency where certificates are issued to the keys. Certificates for both security server and database server(s)
 - Central server, provided by central agency. Provides directory service, used to distribute addresses(=name resolution) and
-certiﬁcate validity information. Receives 
+certiﬁcate validity information. Directory service is based on the Secure DNS. Receives 
 periodically query log hashes, thus creating a verifiable audit trail of queries. Log hashes are timestamped. monitoring service that monitors all the servers in the system.
 
 - Security Server, Turvapalvelin.  Security server acts as
 a gateway between the organisation connected to the X-Road and the X-Road
 infrastructure.Local applications see the security server as a provider of all web services offered 
 by other organizations. Access rights control is 
-performed at the database's security server. To perform queries from organizations 
+performed at the security server. To perform queries from organizations 
 information system to other X-Road databases. Security servers use certificate-based authentication for inter-server communication. The security server stores all received messages (queries or responses) to a query log
 
 - Adapter Server. For a database to share its data over X-Road, it must be equipped with an adapter server, which 
