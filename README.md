@@ -7,8 +7,9 @@ Palveluväylään liittyvää materiaalia
 ## Käsitteitä
 - Central agency/CA. To simplify key change, the public keys of all security 
 servers are registered in the X-Road central agency where certificates are issued to the keys. Certificates for both security server and database server(s)
-- Central server. provides name resolution and receives 
-periodically query log hashes, thus creating a verifiable audit trail of queries. 
+- Central server, provided by central agency. Provides directory service, used to distribute addresses(=name resolution) and
+certiﬁcate validity information. Receives 
+periodically query log hashes, thus creating a verifiable audit trail of queries. Log hashes are timestamped. monitoring service that monitors all the servers in the system.
 
 - Security Server, Turvapalvelin. Access rights control is 
 performed at the database's security server. To perform queries from organizations 
