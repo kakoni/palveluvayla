@@ -13,7 +13,8 @@ periodically query log hashes, thus creating a verifiable audit trail of queries
 
 - Security Server, Turvapalvelin.  Security server acts as
 a gateway between the organisation connected to the X-Road and the X-Road
-infrastructure. Access rights control is 
+infrastructure.Local applications see the security server as a provider of all web services offered 
+by other organizations. Access rights control is 
 performed at the database's security server. To perform queries from organizations 
 information system to other X-Road databases. Security servers use certificate-based authentication for inter-server communication. The security server stores all received messages (queries or responses) to a query log
 
