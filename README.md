@@ -4,6 +4,10 @@ Palveluväylään liittyvää infoa
 ## Intro
 - Suomeen rakennetteva palveluväylä perustuu Viron X-road järjestelmään.
 
+
+## Big picture
+![](https://raw.github.com/kakoni/palveluvayla/master/xroad.png)
+
 ## Käsitteitä
 - Central agency/CA. To simplify key change, the public keys of all security 
 servers are registered in the X-Road central agency where certificates are issued to the keys. Certificates for both security server and database server(s)
