@@ -36,3 +36,6 @@ management duties. For important national databases or registries, it is essenti
 system administrators.
 http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 
+## Kirjastoista
+- Javalle j-road, https://code.google.com/p/j-road/
+
