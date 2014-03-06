@@ -1,4 +1,4 @@
-Palveluväylään liittyvää materiaalia
+Palveluväylään liittyvää infoa
 ============
 
 ## Intro
