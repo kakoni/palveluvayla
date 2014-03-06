@@ -38,7 +38,6 @@ by security server.
 for that database. To give access to these services is the main goal of X-Road. The input 
 and output of data services of a database are specified in the database's documentation. 
 Data services belong to the namespace of their corresponding database: 
-
 - Metaservices are auxiliary services for obtaining information necessary to perform data
 services. The input, output and semantics of metaservices are standardized and will be 
 described in this document. They are similar in all servers providing metaservices. 
@@ -56,6 +55,21 @@ administrator is authorized to disconnect their security servers from the public
 management duties. For important national databases or registries, it is essential to have two 
 system administrators.
 http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
+
+
+## Liittyminen
+- Kaksi käyttötapausta. 1) Organisaatio haluaa käyttää muita palveluja palveluväylän yli 2) Organisaatio tarjoaa palveluja väylälle
+
+1) Organisaatio käyttää palveluita
+- Organisaatio asentaa (ja ylläpitää) Ubuntu 10.04 pohjaisen palvelimen johon asennetaan X-Road package reposta x-tee keyring ja x-tee proxy paketit. 
+- CA-certtien asennus
+- Organisaation avaimen luonti ja sen jälkeen allekirjoitus Central Authorityssä.
+
+2) Organisaatio tarjoaa palveluita
+- Asennetaan security server kohdan 1 mukaisesti
+- Adapter serverin asennus. Adapter server tarjoaa x-roadin vaatimat metaservice rajapinnat + organisaation tarjoamat dataservice rajapinnat.
+- Adapter serverin avainten luonti ja niiden allekirjoitus Central Authorityssä
+- ACL määritys adapter servereille security serveriin
 
 ## Kirjastoista
 - Javalle j-road, https://code.google.com/p/j-road/
