@@ -67,6 +67,7 @@ http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 - Organisaatio asentaa (ja ylläpitää) Ubuntu 10.04 pohjaisen palvelimen johon asennetaan X-Road package reposta x-tee keyring ja x-tee proxy paketit. 
 - CA-certtien asennus
 - Organisaation avaimen luonti ja sen jälkeen allekirjoitus Central Authorityssä.
+- Kuka saa liittyä väylään?(esim yksittäinen kehittäjä, startup-yritys?)
 
 2) Organisaatio tarjoaa palveluita
 - Asennetaan security server kohdan 1 mukaisesti
@@ -74,12 +75,13 @@ http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 - Adapter serverin avainten luonti ja niiden allekirjoitus Central Authorityssä
 - ACL määritys adapter servereille security serveriin
 
+
+
 ## Kirjastoista
 - Javalle j-road, https://code.google.com/p/j-road/
 
 
 ## Muuta materiaalia
-- 
 - http://cyber.ee/uploads/2013/04/Ansper_nordsec.pdf (Designing a Governmental Backbone)
 - http://cyber.ee/uploads/2013/05/xroad_Ansper_Willemson.pdf (A Secure and Scalable Infrastructure for Inter-Organizational Data Exchange and eGovernment Applications)
 
