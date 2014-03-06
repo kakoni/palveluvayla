@@ -11,11 +11,10 @@ Palveluväylään liittyvää infoa
 ## Käsitteitä
 - Central agency/CA. To simplify key change, the public keys of all security 
 servers are registered in the X-Road central agency where certificates are issued to the keys. Certificates for both security server and database server(s)
-- Central server, provided by central agency. Provides directory service, used to distribute addresses(=name resolution) and
-certiﬁcate validity information. Directory service is based on the Secure DNS. Receives 
-periodically query log hashes, thus creating a verifiable audit trail of queries. Log hashes are timestamped. monitoring service that monitors all the servers in the system.
+- Central server, provided by central agency. Provides directory service, used to distribute addresses(=name resolution) and certiﬁcate validity information. Directory service is based on the Secure DNS. Receives periodically query log hashes, thus creating a verifiable audit trail of queries. Log hashes are timestamped.
 - Monitoring service, monitors all the servers in the system. Typically runs on central server.
 - Web-based portal(=palvelunäkymä), for accessing the X-road services in a simple and centralized way.
+
 - Security Server, Turvapalvelin.  Security server acts as
 a gateway between the organisation connected to the X-Road and the X-Road
 infrastructure.Local applications see the security server as a provider of all web services offered 
@@ -25,11 +24,12 @@ information system to other X-Road databases. Security servers use certificate-b
 and responses). Security server will verify the signatures of all incoming SOAP 
 messages, will time-stamp them and archive them. Security servers contain full 
 history of communication.
-
 - Adapter Server. For a database to share its data over X-Road, it must be equipped with an adapter server, which 
 receives SOAP queries from the security server and translates them to the database's native 
 language (such as SQL). An adapter server can be either a stand-alone application or a software 
 module built in the database. 
+- Central Agency + central server + monitoring service + web-based portal run and hosted by goverment.
+- Security server+adapter server run and hosted by partipating organisation/entitiy.
 
 ## Rajapinnoista
 - Palveluväylään liittyneet palvelut keskustelevat keskenään käyttäen SOAP-protokollan mukaisia viestejä. http://x-road.ee/docs/eng/x-road_service_protocol.pdf
