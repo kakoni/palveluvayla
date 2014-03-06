@@ -70,7 +70,7 @@ http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 
 2) Organisaatio tarjoaa palveluita
 - Asennetaan security server kohdan 1 mukaisesti
-- Adapter serverin asennus. Adapter server tarjoaa x-roadin vaatimat metaservice rajapinnat + organisaation tarjoamat dataservice rajapinnat.
+- Adapter serverin tuottaminen/asennus. Adapter server tarjoaa x-roadin vaatimat metaservice rajapinnat + organisaation tarjoamat dataservice rajapinnat.
 - Adapter serverin avainten luonti ja niiden allekirjoitus Central Authorityssä
 - ACL määritys adapter servereille security serveriin
 
