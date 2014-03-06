@@ -26,6 +26,9 @@ module built in the database.
 ## Rajapinnoista
 - Palveluväylään liittyneet palvelut keskustelevat keskenään käyttäen SOAP-protokollan mukaisia viestejä. http://x-road.ee/docs/eng/x-road_service_protocol.pdf
 
+## Debian paketit
+- http://ee.x-rd.net/packages (Turvapalvelin, central palvelin ei saatavissa)
+
 ## Ylläpidosta
 - The main duty of the security server’s administrator is to install, configure, and maintain the 
 server. In addition, the administrator is authorized to take action during an emergency; for 
@@ -38,4 +41,9 @@ http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 
 ## Kirjastoista
 - Javalle j-road, https://code.google.com/p/j-road/
+
+
+## Muuta materiaalia
+- http://cyber.ee/uploads/2013/04/Ansper_nordsec.pdf (Designing a Governmental Backbone)
+- http://cyber.ee/uploads/2013/05/xroad_Ansper_Willemson.pdf (A Secure and Scalable Infrastructure for Inter-Organizational Data Exchange and eGovernment Applications)
 
