@@ -16,7 +16,10 @@ a gateway between the organisation connected to the X-Road and the X-Road
 infrastructure.Local applications see the security server as a provider of all web services offered 
 by other organizations. Access rights control is 
 performed at the security server. To perform queries from organizations 
-information system to other X-Road databases. Security servers use certificate-based authentication for inter-server communication. The security server stores all received messages (queries or responses) to a query log
+information system to other X-Road databases. Security servers use certificate-based authentication for inter-server communication. The security server stores all received messages (queries or responses) to a query log. Security server will sign all the outgoing SOAP messages (requests 
+and responses). Security server will verify the signatures of all incoming SOAP 
+messages, will time-stamp them and archive them. Security servers contain full 
+history of communication.
 
 - Adapter Server. For a database to share its data over X-Road, it must be equipped with an adapter server, which 
 receives SOAP queries from the security server and translates them to the database's native 
@@ -25,6 +28,19 @@ module built in the database.
 
 ## Rajapinnoista
 - Palveluväylään liittyneet palvelut keskustelevat keskenään käyttäen SOAP-protokollan mukaisia viestejä. http://x-road.ee/docs/eng/x-road_service_protocol.pdf
+- Local applications see the security server as a provider of all web services offered 
+by other organizations. Remote service requests by local application will be proxied 
+by security server.
+- Two types of services available in x-road: data services and metaservices. 
+- Data services are services specific to a particular database and usually created individually 
+for that database. To give access to these services is the main goal of X-Road. The input 
+and output of data services of a database are specified in the database's documentation. 
+Data services belong to the namespace of their corresponding database: 
+
+- Metaservices are auxiliary services for obtaining information necessary to perform data
+services. The input, output and semantics of metaservices are standardized and will be 
+described in this document. They are similar in all servers providing metaservices. 
+Metaservices belong to X-Road namespace http://x-road.ee/xsd/x-road.xsd
 
 ## Debian paketit
 - http://ee.x-rd.net/packages (Turvapalvelin, central palvelin ei saatavissa)
