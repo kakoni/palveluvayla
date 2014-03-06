@@ -44,7 +44,7 @@ described in this document. They are similar in all servers providing metaservic
 Metaservices belong to X-Road namespace http://x-road.ee/xsd/x-road.xsd
 
 ## Debian paketit
-- http://ee.x-rd.net/packages (Turvapalvelin, central palvelin ei saatavissa)
+- http://x-road.ee/packages (Turvapalvelin, central palvelin ei saatavissa)
 
 ## Ylläpidosta
 - The main duty of the security server’s administrator is to install, configure, and maintain the 
@@ -76,6 +76,7 @@ http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 
 
 ## Muuta materiaalia
+- 
 - http://cyber.ee/uploads/2013/04/Ansper_nordsec.pdf (Designing a Governmental Backbone)
 - http://cyber.ee/uploads/2013/05/xroad_Ansper_Willemson.pdf (A Secure and Scalable Infrastructure for Inter-Organizational Data Exchange and eGovernment Applications)
 
