@@ -10,7 +10,9 @@ servers are registered in the X-Road central agency where certificates are issue
 - Central server, provided by central agency. Provides directory service, used to distribute addresses(=name resolution) and
 certiﬁcate validity information. Directory service is based on the Secure DNS. Receives 
 periodically query log hashes, thus creating a verifiable audit trail of queries. Log hashes are timestamped. monitoring service that monitors all the servers in the system.
-
+- Monitoring service, monitors all the servers in
+the system
+- Web-based portal(=palvelunäkymä), for accessing the X-road services in a simple and centralized way.
 - Security Server, Turvapalvelin.  Security server acts as
 a gateway between the organisation connected to the X-Road and the X-Road
 infrastructure.Local applications see the security server as a provider of all web services offered 
