@@ -22,14 +22,14 @@ by other organizations. Access rights control is
 performed at the security server. To perform queries from organizations 
 information system to other X-Road databases. Security servers use certificate-based authentication for inter-server communication. The security server stores all received messages (queries or responses) to a query log. Security server will sign all the outgoing SOAP messages (requests 
 and responses). Security server will verify the signatures of all incoming SOAP 
-messages, will time-stamp them and archive them. Security servers contain full 
-history of communication.
+messages, will time-stamp them and archive them. Security servers contain full history of communication.
 - Adapter Server. For a database to share its data over X-Road, it must be equipped with an adapter server, which 
 receives SOAP queries from the security server and translates them to the database's native 
 language (such as SQL). An adapter server can be either a stand-alone application or a software 
 module built in the database. 
 - Central Agency + central server + monitoring service + web-based portal run and hosted by goverment.
 - Security server+adapter server run and hosted by partipating organisation/entitiy.
+
 
 ## Rajapinnoista
 - Palveluväylään liittyneet palvelut keskustelevat keskenään käyttäen SOAP-protokollan mukaisia viestejä. http://x-road.ee/docs/eng/x-road_service_protocol.pdf
