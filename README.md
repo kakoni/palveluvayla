@@ -79,6 +79,7 @@ http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 
 ## Kirjastoista
 - Javalle j-road, https://code.google.com/p/j-road/
+- .NET, X-tee.NET http://xtee.codeplex.com/
 
 
 ## Muuta materiaalia
