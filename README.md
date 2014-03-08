@@ -79,6 +79,7 @@ http://ee.x-rd.net/docs/eng/security_server_users_guide.pdf
 
 ## Kirjastoista
 - Javalle j-road, https://code.google.com/p/j-road/
+- Webmedia X-tee Maven repo, esimerkki toteuksia; http://maven2.webmedia.ee/ee/webmedia/xtee/
 - .NET, X-tee.NET http://xtee.codeplex.com/
 
 
