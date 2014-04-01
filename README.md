@@ -2,7 +2,7 @@ Palveluväylään liittyvää infoa
 ============
 
 ## Intro
-- Suomeen rakennetteva palveluväylä perustuu Viron X-road järjestelmään.
+- Suomeen rakennetteva palveluväylä perustuu Viron X-road järjestelmään. Palveluväylän viralliset sivut https://confluence.csc.fi/pages/viewpage.action?pageId=37816865
 
 
 ## Big picture
